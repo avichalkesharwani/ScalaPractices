@@ -27,14 +27,10 @@ class MyCompressedFile extends MyFile {
 object TestInheritDriver {
   def main(args: Array[String]) {
     var f: MyAbstractFile = new MyFile()
-
     println("*** Testing MyFile ***")
-
     f.open(null)
     f.save(null)
-
     println("*** Testing MyCompressedFile ***")
-
     f = new MyCompressedFile()
     f.open(null)
     f.save(null)
