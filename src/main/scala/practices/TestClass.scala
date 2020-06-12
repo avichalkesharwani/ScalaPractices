@@ -7,7 +7,8 @@ class Rect(private var l: Float, private var b: Float) {
 }
 
 object TestRect {
-  def main(args: Array[String]): Unit = {
+
+  def main(args: Array[String]): Unit =  {
     val r = new Rect(3.3f, 4.4f)
     println(r.area)
 
