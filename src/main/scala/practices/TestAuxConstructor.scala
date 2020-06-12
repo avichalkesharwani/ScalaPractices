@@ -3,7 +3,7 @@ package practices
 
 
 // the primary constructor
-class Pizza (var crustSize: Int, var crustType: String){
+class Pizza (var crustSize: Int = 12, var crustType: String = "THIN"){
 
 
 
@@ -30,13 +30,13 @@ class Pizza (var crustSize: Int, var crustType: String){
 
 
 object TestAuxConstructor {
-  val DefaultCrustSize: Int = 12
-  val DefaultCrustType: String = "THIN"
+ // val DefaultCrustSize: Int = 12
+ // val DefaultCrustType: String = "THIN"
 
   def main(args: Array[String]): Unit = {
-    val p1 = new Pizza(DefaultCrustSize, DefaultCrustType)
-    val p2 = new Pizza(DefaultCrustSize)
-    val p3 = new Pizza(DefaultCrustType)
+    val p1 = new Pizza(13, "THIN2")
+    val p2 = new Pizza(14)
+    val p3 = new Pizza("THIN3")
     val p4 = new Pizza()
     println(p1)
     println(p2)
