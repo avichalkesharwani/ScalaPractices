@@ -23,15 +23,14 @@ object TypeSuperAdder1 extends App {
   items.foldLeft(Monoid[Int].empty)(_ |+| _)
   */
 
-
-  /* Well done! SuperAdder’s market share con􏰀nues to grow, and now there is demand for addi􏰀onal func􏰀onality.
+  /*
+  Well done! SuperAdder’s market share con􏰀nues to grow, and now there is demand for addi􏰀onal func􏰀onality.
   People now want to add List[Option[Int]]. Change add so this is possible. The SuperAdder code base is of the highest
   quality, so make sure there is no code duplica􏰀on!
   */
 
   def add[A](items: List[A])(implicit monoid: Monoid[A]): A =
     items.foldLeft(monoid.empty)(_ |+| _)
-
   import cats.instances.int._ // for Monoid
 
   println(add(List(1, 2, 3)))
@@ -41,7 +40,6 @@ object TypeSuperAdder1 extends App {
 
 
   /*
-
   SuperAdder is entering the POS (point-of-sale, not the other POS) market.
   Now we want to add up Orders:
   case class Order(totalCost: Double, quantity: Double)
