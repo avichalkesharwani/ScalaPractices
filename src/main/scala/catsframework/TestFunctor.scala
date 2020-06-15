@@ -37,3 +37,8 @@ Others : fproduct, lift, compose
 
 
  */
+object TestFunctor extends App
+{
+
+
+}
