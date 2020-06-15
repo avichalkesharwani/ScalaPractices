@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d126a083-dbcc-44b1-a5c5-a06dcc32cf1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad1.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            <state relative-caret-position="430">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding>
                 <element signature="e#21#34#0" expanded="true" />
               </folding>
@@ -702,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        <state relative-caret-position="430">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <element signature="e#21#34#0" expanded="true" />
           </folding>
