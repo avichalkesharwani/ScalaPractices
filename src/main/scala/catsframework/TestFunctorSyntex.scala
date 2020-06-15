@@ -1,6 +1,7 @@
 package catsframework
 
 import cats.Functor
+import scala.language.higherKinds
 
 object TestFunctorSyntex extends App {
 
