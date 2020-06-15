@@ -19,13 +19,15 @@ object TestFuture extends App {
 */
 
 /*
-USe Case:
+Use Case:
 
 The typelevel cats library optionT data type makes it easy for one to manipulate the content of future of an option.
 If you have played around with asynchronous database libraries such as slick, reativemongo(scala mongoDB driver) or
 phantom(Scala Cassandra driver) its no news that the db IO response types are Future[Option[ResultSet]],
 to manipulate such return types using cats is awesome.
 
- */
+*/
+
+
 
 }
