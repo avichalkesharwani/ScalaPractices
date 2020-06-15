@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d126a083-dbcc-44b1-a5c5-a06dcc32cf1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TypeSuperAdder1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,15 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/practices/TestCaseClass.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,11 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
-              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TypeSuperAdder1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <element signature="e#447#465#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/catsexercise/meetcats1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/catsexercise/TypeClassEq1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/catsexercise/TypeSuperAdder1.scala" />
       </list>
     </option>
   </component>
@@ -227,6 +232,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="catsframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaPractices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaPractices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="practices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaPractices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaPractices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="traits" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,23 +283,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TypeMonoidTruth">
+  <component name="RunManager" selected="Application.TypeSuperAdder1">
     <configuration name="ReadingInputs" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ReadingInputs" />
       <module name="ScalaPractices" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAuxConstructor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practices.TestAuxConstructor" />
-      <module name="ScalaPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,6 +317,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeSuperAdder1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catsexercise.TypeSuperAdder1" />
+      <module name="ScalaPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="catsexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="meetcats1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="catsexercise.meetcats1" />
       <module name="ScalaPractices" />
@@ -324,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeSuperAdder1" />
         <item itemvalue="Application.TypeMonoidTruth" />
         <item itemvalue="Application.TypeClassEq1" />
         <item itemvalue="Application.meetcats1" />
         <item itemvalue="Application.ReadingInputs" />
-        <item itemvalue="Application.TestAuxConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +411,7 @@
     <frame x="-2" y="24" width="1680" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -654,7 +675,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TypeMonoidTruth.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TypeSuperAdder1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="e#447#465#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
