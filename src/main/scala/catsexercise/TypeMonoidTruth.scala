@@ -38,7 +38,6 @@ object TypeMonoidTruth extends App {
     }
 
 
-
   val intSetMonoid = Monoid[Set[Int]]
   val strSetMonoid = Monoid[Set[String]]
 
@@ -46,8 +45,6 @@ object TypeMonoidTruth extends App {
   // res2: Set[Int] = Set(1, 2, 3)
   println(strSetMonoid.combine(Set("A", "B"), Set("B", "C")))
   // res3: Set[String] = Set(A, B, C)
-
-
 
 
 
