@@ -22,15 +22,14 @@ object TypeMonoidTruth extends App {
       (a && !b) || (!a && b)
     def empty = false
   }
-
   implicit val booleanXnorMonoid: Monoid[Boolean] =
     new Monoid[Boolean] {
       def combine(a: Boolean, b: Boolean) =
         (!a || b) && (a || !b)
       def empty = true
     }
-
 */
+
   implicit def setUnionMonoid[A]: Monoid[Set[A]] =
     new Monoid[Set[A]] {
       def combine(a: Set[A], b: Set[A]) = a union b
