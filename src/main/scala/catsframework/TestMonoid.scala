@@ -51,7 +51,7 @@ object TestMonoid extends App {
  */
 
 
- // Monoid[Map[String,Int]].combineAll(List(Map("a" -> 1, "b" -> 2), Map("a" -> 4)))
+  //Monoid[Map[String,Int]].combineAll(List(Map("a" -> 1, "b" -> 2), Map("a" -> 4)))
 
 
 

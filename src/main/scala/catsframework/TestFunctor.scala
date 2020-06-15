@@ -1,6 +1,11 @@
 package catsframework
-import cats._
-import cats.instances.all._
+//import cats._
+//import cats.instances.all._
+
+import scala.language.higherKinds
+import cats.Functor
+import cats.instances.list._   // for Functor
+import cats.instances.option._ // for Functor
 // dependency for cats._ and cats.instances.all._
 // So Functor is the type class, multiple things defined in Cat to use it
 
@@ -39,6 +44,20 @@ Others : fproduct, lift, compose
  */
 object TestFunctor extends App
 {
+
+
+  val list1 = List(1, 2, 3)
+  // list1: List[Int] = List(1, 2, 3)
+  val list2 = Functor[List].map(list1)(_ * 2)
+  // list2: List[Int] = List(2, 4, 6)
+
+  val list3 = list1.map(_*2)
+  println(list3)
+
+  val option1 = Option(123)
+  // option1: Option[Int] = Some(123)
+  val option2 = Functor[Option].map(option1)(_.toString) // option2: Option[String] = Some(123)
+
 
 
 }
