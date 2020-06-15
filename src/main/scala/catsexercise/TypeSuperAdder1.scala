@@ -12,7 +12,7 @@ object TypeSuperAdder1 extends App {
 
   // def add(items: List[Int]): Int = items.foldLeft(0)(_ + _)
 
-   // another way ...
+  // another way ...
 
   import cats.Monoid
   import cats.instances.int._    // for Monoid
@@ -38,6 +38,27 @@ object TypeSuperAdder1 extends App {
   // res9: Int = 6
   import cats.instances.option._ // for Monoid
   println(add(List(Some(1), None, Some(2), None, Some(3))))
+
+
+  /*
+
+  SuperAdder is entering the POS (point-of-sale, not the other POS) market.
+  Now we want to add up Orders:
+  case class Order(totalCost: Double, quantity: Double)
+  We need to release this code really soon, so we can’t make any modifica􏰀ons to add. Make it so!
+  */
+
+  /*
+  implicit val monoid: Monoid[Order] = new Monoid[Order] {
+    def combine(o1: Order, o2: Order) =
+      Order(
+        o1.totalCost + o2.totalCost,
+        o1.quantity + o2.quantity
+      )
+    def empty = Order(0, 0)
+  }
+
+  */
 
 
 
