@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d126a083-dbcc-44b1-a5c5-a06dcc32cf1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/catsframework/TypeEval.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/catsframework/TypeLAzy.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/catsframework/TestFunctorSyntex.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/catsframework/TestFunctorSyntex.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#57#87#0" expanded="true" />
               </folding>
@@ -57,19 +52,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/catsframework/TypeLAzy.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ReadingInputs.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/catsframework/TypeEval.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -189,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/catsframework/TestFunctorSyntex.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/catsframework/TypeLAzy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/catsframework/TypeEval.scala" />
       </list>
     </option>
   </component>
@@ -234,12 +231,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="catsexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="catsframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaPractices" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaPractices" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="practices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaPractices" type="b2602c69:ProjectViewProjectNode" />
@@ -272,14 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMonad2">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="ScalaPractices" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TypeEval">
     <configuration name="HelloYou" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HelloYou" />
       <module name="ScalaPractices" />
@@ -290,19 +283,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ScalaPractices" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMonad1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="catsexercise.TestMonad1" />
-      <module name="ScalaPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="catsexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,13 +300,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeEval" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catsframework.TypeEval" />
+      <module name="ScalaPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="catsframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeLAzy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catsframework.TypeLAzy" />
+      <module name="ScalaPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="catsframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeEval" />
+        <item itemvalue="Application.TypeLAzy" />
         <item itemvalue="Application.TestMonad2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloYou" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.TestMonad1" />
       </list>
     </recent_temporary>
   </component>
@@ -699,11 +705,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/catsexercise/TestMonad2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#57#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/catsframework/TypeLAzy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/catsframework/TypeEval.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
